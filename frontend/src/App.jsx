@@ -20,7 +20,7 @@ function App() {
         <Route path='/kids' element={<ShopCategory category="kid"/>} />
         <Route path='/Product' element={<Product/>}>
           <Route path=':productId' element={<Product/>} />
-        </Route>
+          </Route>
         <Route path='/Cart' element={<Cart/>} />
         <Route path='/login' element={<LoginSignup/>} />
       </Routes>
